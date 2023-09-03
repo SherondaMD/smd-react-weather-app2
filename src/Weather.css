@@ -3,7 +3,8 @@
   border: 1px solid #dadde1;
   padding: 16px;
   border-radius: 4px;
-  color: rgba(135, 135, 135);
+  color: black;
+  background: whitesmoke;
 }
 
 .Weather form {
@@ -11,10 +12,11 @@
 }
 
 .Weather h1 {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 100;
   line-height: 29px;
   margin: 20px 0 0 0;
+  padding-bottom: 5px;
 }
 
 .Weather ul {
@@ -30,7 +32,7 @@
 }
 
 .Weather canvas {
-  margin-top: 10px;
+  margin-top: 2px;
   margin-right: 10px;
   display: inline-block;
 }
@@ -40,7 +42,7 @@
   font-size: 64px;
   font-weight: 400;
   color: rgb(33, 33, 33);
-  line-height: 64px;
+  line-height: 72px;
 }
 
 .Weather .unit {
